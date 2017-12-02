@@ -2,7 +2,7 @@
 
 sxhkd -c $HOME/.config/bspwm/sxhkdrc &
 
-bspc monitor HDMI1 -d I II III IV V
+bspc monitor -d I II III IV V
 
 bspc config border_width            3
 bspc config window_gap              6

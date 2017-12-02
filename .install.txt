@@ -22,3 +22,19 @@ yaourt -S rxvt-unicode-256xresources
 
 sudo pacman -S bspwm zxhkd
 
+7.- Instal diretory viewver tree
+
+sudo pacman -S tree
+
+8.- install bes web browser
+
+sudo pacman -S firefox
+
+9.- install launcher
+
+sudo pacman -S rofi
+
+10.- menu bar 
+
+yaourt -S polybar
+

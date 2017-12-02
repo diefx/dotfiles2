@@ -1,5 +1,9 @@
 .local/
 .Xauthority
 Downloads/
+Desktop/
 .cache/
-
+.config/nvim/shada/
+.config/nvim/swap/
+.config/xorg/
+.mozilla/
