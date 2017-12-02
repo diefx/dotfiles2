@@ -3,6 +3,7 @@
 
 # Aliases
 alias vim nvim
+alias turnoff sudo shutdown -h now
 
 # colors
 #source $HOME/.config/nvim/plugged/gruvbox/gruvbox_256palette.sh
