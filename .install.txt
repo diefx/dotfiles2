@@ -1,0 +1,24 @@
+1.- Install terminal editor neovim
+
+sudo pacman -S neovim
+
+2.- Install control version system
+
+sudo pacman -S git
+
+3.- instal video server xorg
+
+sudo pacman -S xorg-server xorg-xinit
+
+4.- Community package manager yaourt
+
+sudo pacman -S yaourt
+
+5.- Install cool terminal
+
+yaourt -S rxvt-unicode-256xresources
+
+6.- install tilling window manager
+
+sudo pacman -S bspwm zxhkd
+
