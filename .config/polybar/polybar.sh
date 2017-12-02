@@ -7,7 +7,7 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 # Launch primary bar
-polybar primary -c /home/diego/.config/config &
+polybar primary -c ~/.config/polybar/config &
 
 
 echo "Bars launched..."

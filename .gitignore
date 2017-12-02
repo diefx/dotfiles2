@@ -3,7 +3,10 @@
 Downloads/
 Desktop/
 .cache/
+.config/recently-used.xbel
+.config/dconf/
 .config/nvim/shada/
+.config/nvim/plugged/
 .config/nvim/swap/
 .config/xorg/
 .mozilla/
