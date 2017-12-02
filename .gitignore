@@ -3,8 +3,11 @@
 Downloads/
 Desktop/
 Code/
+VirtualBox\ VMs/
 .fehbg
 .cache/
+.config/QtProject.conf
+.config/VirtualBox/
 .config/recently-used.xbel
 .config/dconf/
 .config/nvim/shada/
