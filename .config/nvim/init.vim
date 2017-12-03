@@ -7,13 +7,15 @@ call plug#end()
 
 let g:gruvbox_bold = 0
 let g:gruvbox_contrast_light = 'medium'
+let g:gruvbox_contrast_dark = 'hard'
 
 " colours
 set t_Co=256                " enable 256 colour themes
 colorscheme gruvbox         " gruvbox colourscheme
 set background=dark         " use dark background
 " hi Normal ctermbg=none    " transparent background
-
+set cursorline              " highlight current line
+set ttyfast                 " improves redrawing for newer computers
 
 " {{{ INTERFACE
 syntax on                   " enable syntax highlighting
@@ -26,7 +28,6 @@ set numberwidth=3           " pad number column
 " set colorcolumn=81          " highlight 81st column
 " uncomment to highlight all columns beyond the 80th
 " execute "set colorcolumn=" . join(range(81,335), ',')
-set cursorline              " highlight current line
 " }}}
 
 

@@ -1,7 +1,7 @@
 ; Define color theme as .Xsresources
 [colors]
-;background = #ff1d2021
-background = #ff282828
+background = #ff1d2021
+;background = #ff282828
 foreground = #a0ebdbb2
 foreground-alt = #90665c54
 primary = #ffb52a
@@ -32,7 +32,7 @@ background = ${colors.background}
 foreground = ${colors.foreground}
 
 border-bottom-size = 3
-border-bottom-color = #3c3836
+border-bottom-color = #665c54
 
 padding-left = 0
 padding-right = 2

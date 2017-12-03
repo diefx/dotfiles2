@@ -15,7 +15,8 @@ Xft.rgba: rgb
 ! colors
 URxvt.cursorColor:  #ebdbb2
 ! hard contrast: *background: #1d2021
-URxvt.background:   #282828
+URxvt.background:   #1d2021
+!URxvt.background:   #282828
 ! soft contrast: *background: #32302f
 URxvt.foreground:   #ebdbb2
 

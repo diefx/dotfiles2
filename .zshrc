@@ -1,12 +1,24 @@
 # Export path
 #export PATH=$PATH:$HOME/.gem/ruby/2.4.0/bin
 
-# Aliases
-alias vim nvim
-alias turnoff sudo shutdown -h now
+alias turnoff='sudo shutdown -h now'
+alias vim='nvim'
+
+alias gitc='git commit -am'                               # git commit with message
+alias gitl='git log --graph --oneline --decorate --all'   # graph git log
+alias gits='git status -sb'                               # simplify git status
+alias giti='nvim .gitignore'
+
+#   {{{ FILE MANAGEMENT
+alias cp='cp -iv'               # interactive and verbose cp
+alias la='ls -la'               # list all files
+alias ll='ls -l'                # list files
+alias mkdir='mkdir -p'          # do not clobber files when making paths
+alias mv='mv -iv'               # interactive and verbose mv
+alias rm='rm -iv'               # interactive and verbose rm
 
 # colors
-#source $HOME/.config/nvim/plugged/gruvbox/gruvbox_256palette.sh
+source $HOME/.config/nvim/plugged/gruvbox/gruvbox_256palette.sh
 
 
 # find string in files
@@ -41,6 +53,7 @@ function extract() {
     fi
 }
 
+# }}}}
 
 # {{{ PROMPT
 autoload -Uz promptinit && promptinit

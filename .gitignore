@@ -3,9 +3,12 @@
 Downloads/
 Desktop/
 Code/
+Pictures/
 VirtualBox\ VMs/
 .fehbg
+.thumbnails
 .cache/
+.config/gtk-2.0/
 .config/QtProject.conf
 .config/VirtualBox/
 .config/recently-used.xbel
