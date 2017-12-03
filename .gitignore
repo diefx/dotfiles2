@@ -14,4 +14,6 @@ VirtualBox\ VMs/
 .config/nvim/plugged/
 .config/nvim/swap/
 .config/xorg/
+.config/gegl-0.2/
+.gimp-2.8/
 .mozilla/
