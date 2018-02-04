@@ -5,9 +5,14 @@ Desktop/
 Code/
 Pictures/
 VirtualBox\ VMs/
+Games/
+H2SViY
+PlayOnLinux's\ virtual\ drives
 .fehbg
 .thumbnails
 .cache/
+.config/SEGGER/
+.config/pulse/
 .config/gtk-2.0/
 .config/QtProject.conf
 .config/VirtualBox/
@@ -18,5 +23,23 @@ VirtualBox\ VMs/
 .config/nvim/swap/
 .config/xorg/
 .config/gegl-0.2/
+.config/mcomix/
+.config/retroarch/
+.config/Steam/
+.config/htop/
+.config/unity3d/
+.config/user-dirs.dirs
+.config/user-dirs.locale
+.PlayOnLinux/
+.wget-hsts
+.pki/
+.pulse-cookie
+.steam/
+.steampid
+.steampath
 .gimp-2.8/
 .mozilla/
+.ssh/
+.apvlvinfo
+.esd_auth
+
